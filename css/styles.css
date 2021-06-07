@@ -110,6 +110,7 @@ html {
   line-height: 28px;
   border: none;
   color: #FFFFFF;
+  cursor: pointer;
   margin-top: 0;
   transition: all 0.5s ease;
 }
