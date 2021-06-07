@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'Public Sans';
+  src: url('../fonts/PublicSans-Regular.woff2') format('woff2'),
+      url('../fonts/PublicSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('../fonts/PublicSans-Medium.woff2') format('woff2'),
+      url('../fonts/PublicSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Public Sans';
+  src: url('../fonts/PublicSans-Thin.woff2') format('woff2'),
+      url('../fonts/PublicSans-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.container {
+  max-width: 1150px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header{
+  background-color: #FFF;
+  position: relative;
+  z-index: 9;
+}
+
+.site-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 33px 0 27px 0;
+}
+
+.header-middle__item{
+  padding: 0;
+  display: flex;  
+}
+
+.header-left__icon{
+  margin-top: 5px;
+}
+
+.header-middle__icon{
+  margin-right: 225px;
+}
+
+.header-middle__item{
+  list-style: none;
+  align-items: center;
+}
+
+.header-middle__link{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family:  'Public Sans';
+  margin-right: 30px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: -0.107692px;
+  color: #9597A5;
+  padding-bottom: 37px;
+  border-bottom: 4px solid transparent;
+  transition: all 0.5s ease;
+}
+
+.header-middle__link:hover{
+  border-bottom: 4px solid rgb(32, 226, 178);  
+  color: #000;
+}
+
+.careers{
+  margin-left: 0; 
+}
+
+.button__request{
+  padding: 8px 34px;
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  border-radius: 22px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  border: none;
+  color: #FFFFFF;
+  margin-top: 0;
+  transition: all 0.5s ease;
+}
+
+.button__request:hover{
+  background: linear-gradient(135deg, #33D35E 0%, #2AB6D9 99.58%);
+  opacity: 0.6;
+  color: #FFF;
+  border-radius: 22px;
+}
+
+.hero{
+  background-color: #F2F2F2;
+  background-image: url('../img/hero-bg-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50% + 530px) -255px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+
+.hero-content{
+  display: flex;
+}
+
+.phone__icon::before{
+  content: "";
+  width: 975px;
+  height: 955px;
+  background-image: url('../img/hero-phones-desktop.svg');
+  background-repeat: no-repeat;
+  background-position: calc(50%)-134px;
+  position: absolute;
+  z-index: 10;
+}
+
+.hero__item{
+  padding: 170px 0;
+}
+
+.hero__heading{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  width: 394px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.hero__text{
+  width: 447px;
+  margin-top: 24px;
+  font-family: 'Public Sans';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
+
+.hero__btn{
+  margin-top: 36px;
+}
+
+.main{
+  position: absolute;
+}
+
+.choose__heading{
+  font-family: 'Public Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -0.714286px;
+}
+
+.choose__text{
+  width: 635px;
+  font-family: 'Public Sans';
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}
