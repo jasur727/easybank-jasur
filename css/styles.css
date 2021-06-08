@@ -45,6 +45,10 @@ html {
   margin-right: auto;
 }
 
+body{
+  overflow-x: hidden;
+}
+
 .header{
   background-color: #FFF;
   position: relative;
@@ -128,23 +132,26 @@ html {
   background-repeat: no-repeat;
   background-position: calc(50% + 578px) -255px;
   position: relative;
-  overflow: hidden;
-  padding-bottom: 120px;
 }
 
 .hero-content{
   display: flex;
 }
 
-.phone__icon::before{
-  content: "";
-  width: 975px;
-  height: 955px;
+.main{
+  background-color: rgba(244, 245, 247, 1);
+}
+
+.hero__item::after{
+  width: 760px;
+  height: 959px;
+  position: absolute;
+  content: '';
   background-image: url('../img/hero-phones-desktop.svg');
   background-repeat: no-repeat;
-  background-position: calc(50% + 92px)-130px;
-  position: absolute;
-  z-index: 10;
+  z-index: 4;
+  top: -129px;
+  left: calc(50% + 73px);
 }
 
 .hero__item{
@@ -177,10 +184,6 @@ html {
   margin-top: 36px;
 }
 
-.main{
-  position: absolute;
-}
-
 .choose__heading{
   margin: 0;
   padding: 0;
@@ -191,8 +194,7 @@ html {
   line-height: 64px;
   letter-spacing: -0.714286px;
   color: #2D314D;
-  padding-top: 96px;
-  padding-bottom: 16px;
+
 }
 
 .choose__text{
@@ -212,6 +214,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 94px;
 }
 
 .online__heading{
@@ -247,7 +250,7 @@ html {
 }
 
 .online__text{
-  width: 255px;
+  width: 253px;
   font-family: 'Public Sans';
   font-weight: normal;
   font-size: 16px;
