@@ -155,8 +155,8 @@ body {
   background-image: url('../img/hero-phones-desktop.svg');
   background-repeat: no-repeat;
   z-index: 4;
-  top: -129px;
-  left: calc(50% + 73px);
+  top: -29px;
+  left: calc(50% + 70px);
 }
 
 .hero__item {
@@ -172,6 +172,7 @@ body {
   width: 394px;
   letter-spacing: -1px;
   color: #2D314D;
+  padding-top: 56px;
 }
 
 .hero__text {
