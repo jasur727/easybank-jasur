@@ -50,9 +50,10 @@ body {
 }
 
 .header {
-  background-color: #FFF;
-  position: relative;
-  z-index: 9;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  background-color: #FFFFFF;
 }
 
 .site-header {
