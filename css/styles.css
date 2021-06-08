@@ -131,7 +131,7 @@ body {
   background-color: #F2F2F2;
   background-image: url('../img/hero-bg-desktop.svg');
   background-repeat: no-repeat;
-  background-position: calc(50% + 578px) -255px;
+  background-position: calc(50% + 578px) -155px;
   position: relative;
 }
 
